@@ -1,0 +1,1 @@
+../Core/Src/tcu_whitelist.c:19:6:TCUWhitelist_IsAllowed	24	static

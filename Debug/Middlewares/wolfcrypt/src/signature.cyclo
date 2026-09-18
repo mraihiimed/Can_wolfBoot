@@ -1,0 +1,9 @@
+../Middlewares/wolfcrypt/src/signature.c:66:12:wc_SignatureCheckHashStrength	4
+../Middlewares/wolfcrypt/src/signature.c:95:12:wc_SignatureDerEncode	3
+../Middlewares/wolfcrypt/src/signature.c:116:5:wc_SignatureGetSize	6
+../Middlewares/wolfcrypt/src/signature.c:188:5:wc_SignatureVerifyHash	31
+../Middlewares/wolfcrypt/src/signature.c:356:5:wc_SignatureVerify	16
+../Middlewares/wolfcrypt/src/signature.c:440:5:wc_SignatureGenerateHash	1
+../Middlewares/wolfcrypt/src/signature.c:450:5:wc_SignatureGenerateHash_ex	20
+../Middlewares/wolfcrypt/src/signature.c:551:5:wc_SignatureGenerate	1
+../Middlewares/wolfcrypt/src/signature.c:561:5:wc_SignatureGenerate_ex	17

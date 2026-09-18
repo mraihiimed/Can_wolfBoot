@@ -1,0 +1,8 @@
+../Core/Src/cyber_test.c:55:13:CyberTest_Record	2
+../Core/Src/cyber_test.c:78:13:Test_AllowedFrame	1
+../Core/Src/cyber_test.c:102:13:Test_InvalidCanId	1
+../Core/Src/cyber_test.c:123:13:Test_InvalidDlc	1
+../Core/Src/cyber_test.c:148:13:Test_UnsupportedSid	1
+../Core/Src/cyber_test.c:172:13:Test_EmptyDiagnostic	1
+../Core/Src/cyber_test.c:193:6:CyberTest_RunAll	1
+../Core/Src/cyber_test.c:209:26:CyberTest_GetReport	1

@@ -1,0 +1,2 @@
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:591:31:ForceZero	24	static
+../Middlewares/wolfcrypt/src/memory.c:1681:6:wc_ForceZero	16	static

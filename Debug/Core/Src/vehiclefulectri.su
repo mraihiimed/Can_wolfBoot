@@ -1,0 +1,2 @@
+../Core/Src/vehiclefulectri.c:18:6:sendFuelEconomyMessage	56	static
+../Core/Src/vehiclefulectri.c:34:6:FuelEconomy_Ctrl	16	static

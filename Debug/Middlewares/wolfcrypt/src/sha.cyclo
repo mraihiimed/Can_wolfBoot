@@ -1,0 +1,16 @@
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:109:37:rotlFixed	1
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:139:33:ByteReverseWord32	1
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:181:31:ByteReverseWords	2
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:668:33:ctMaskWord32GTE	1
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:773:37:min	1
+../Middlewares/wolfcrypt/src/sha.c:424:16:InitSha	1
+../Middlewares/wolfcrypt/src/sha.c:449:23:AddLength	2
+../Middlewares/wolfcrypt/src/sha.c:489:16:Transform	1
+../Middlewares/wolfcrypt/src/sha.c:575:5:wc_InitSha_ex	3
+../Middlewares/wolfcrypt/src/sha.c:621:5:wc_ShaUpdate	12
+../Middlewares/wolfcrypt/src/sha.c:807:5:wc_ShaFinalRaw	3
+../Middlewares/wolfcrypt/src/sha.c:845:5:wc_ShaFinal	7
+../Middlewares/wolfcrypt/src/sha.c:1061:5:wc_InitSha	1
+../Middlewares/wolfcrypt/src/sha.c:1071:6:wc_ShaFree	1
+../Middlewares/wolfcrypt/src/sha.c:1157:5:wc_ShaGetHash	7
+../Middlewares/wolfcrypt/src/sha.c:1179:5:wc_ShaCopy	3

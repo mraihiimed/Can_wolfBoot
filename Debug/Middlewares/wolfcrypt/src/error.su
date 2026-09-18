@@ -1,0 +1,2 @@
+../Middlewares/wolfcrypt/src/error.c:36:13:wc_GetErrorString	16	static
+../Middlewares/wolfcrypt/src/error.c:728:6:wc_ErrorString	16	static

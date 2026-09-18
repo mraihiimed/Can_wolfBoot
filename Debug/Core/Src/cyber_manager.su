@@ -1,0 +1,2 @@
+../Core/Src/cyber_manager.c:21:15:CyberManager_CheckFrame	24	static
+../Core/Src/cyber_manager.c:46:6:handleCANRxMessage	24	static

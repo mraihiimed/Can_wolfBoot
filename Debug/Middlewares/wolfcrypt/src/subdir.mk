@@ -1,0 +1,362 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (14.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Middlewares/wolfcrypt/src/aes.c \
+../Middlewares/wolfcrypt/src/arc4.c \
+../Middlewares/wolfcrypt/src/ascon.c \
+../Middlewares/wolfcrypt/src/asm.c \
+../Middlewares/wolfcrypt/src/asn.c \
+../Middlewares/wolfcrypt/src/asn_orig.c \
+../Middlewares/wolfcrypt/src/async.c \
+../Middlewares/wolfcrypt/src/blake2b.c \
+../Middlewares/wolfcrypt/src/blake2s.c \
+../Middlewares/wolfcrypt/src/camellia.c \
+../Middlewares/wolfcrypt/src/chacha.c \
+../Middlewares/wolfcrypt/src/chacha20_poly1305.c \
+../Middlewares/wolfcrypt/src/cmac.c \
+../Middlewares/wolfcrypt/src/coding.c \
+../Middlewares/wolfcrypt/src/compress.c \
+../Middlewares/wolfcrypt/src/cpuid.c \
+../Middlewares/wolfcrypt/src/cryptocb.c \
+../Middlewares/wolfcrypt/src/curve25519.c \
+../Middlewares/wolfcrypt/src/curve448.c \
+../Middlewares/wolfcrypt/src/des3.c \
+../Middlewares/wolfcrypt/src/dh.c \
+../Middlewares/wolfcrypt/src/dsa.c \
+../Middlewares/wolfcrypt/src/ecc.c \
+../Middlewares/wolfcrypt/src/ecc_fp.c \
+../Middlewares/wolfcrypt/src/eccsi.c \
+../Middlewares/wolfcrypt/src/ed25519.c \
+../Middlewares/wolfcrypt/src/ed448.c \
+../Middlewares/wolfcrypt/src/error.c \
+../Middlewares/wolfcrypt/src/evp.c \
+../Middlewares/wolfcrypt/src/evp_pk.c \
+../Middlewares/wolfcrypt/src/falcon.c \
+../Middlewares/wolfcrypt/src/fe_448.c \
+../Middlewares/wolfcrypt/src/fe_low_mem.c \
+../Middlewares/wolfcrypt/src/fe_operations.c \
+../Middlewares/wolfcrypt/src/fips.c \
+../Middlewares/wolfcrypt/src/fips_test.c \
+../Middlewares/wolfcrypt/src/ge_448.c \
+../Middlewares/wolfcrypt/src/ge_low_mem.c \
+../Middlewares/wolfcrypt/src/ge_operations.c \
+../Middlewares/wolfcrypt/src/hash.c \
+../Middlewares/wolfcrypt/src/hmac.c \
+../Middlewares/wolfcrypt/src/hpke.c \
+../Middlewares/wolfcrypt/src/integer.c \
+../Middlewares/wolfcrypt/src/kdf.c \
+../Middlewares/wolfcrypt/src/logging.c \
+../Middlewares/wolfcrypt/src/md2.c \
+../Middlewares/wolfcrypt/src/md4.c \
+../Middlewares/wolfcrypt/src/md5.c \
+../Middlewares/wolfcrypt/src/memory.c \
+../Middlewares/wolfcrypt/src/misc.c \
+../Middlewares/wolfcrypt/src/pkcs12.c \
+../Middlewares/wolfcrypt/src/pkcs7.c \
+../Middlewares/wolfcrypt/src/poly1305.c \
+../Middlewares/wolfcrypt/src/puf.c \
+../Middlewares/wolfcrypt/src/pwdbased.c \
+../Middlewares/wolfcrypt/src/random.c \
+../Middlewares/wolfcrypt/src/rc2.c \
+../Middlewares/wolfcrypt/src/ripemd.c \
+../Middlewares/wolfcrypt/src/rng_bank.c \
+../Middlewares/wolfcrypt/src/rsa.c \
+../Middlewares/wolfcrypt/src/sakke.c \
+../Middlewares/wolfcrypt/src/selftest.c \
+../Middlewares/wolfcrypt/src/sha.c \
+../Middlewares/wolfcrypt/src/sha256.c \
+../Middlewares/wolfcrypt/src/sha3.c \
+../Middlewares/wolfcrypt/src/sha512.c \
+../Middlewares/wolfcrypt/src/signature.c \
+../Middlewares/wolfcrypt/src/siphash.c \
+../Middlewares/wolfcrypt/src/sm2.c \
+../Middlewares/wolfcrypt/src/sm3.c \
+../Middlewares/wolfcrypt/src/sm4.c \
+../Middlewares/wolfcrypt/src/sp_arm32.c \
+../Middlewares/wolfcrypt/src/sp_arm64.c \
+../Middlewares/wolfcrypt/src/sp_armthumb.c \
+../Middlewares/wolfcrypt/src/sp_c32.c \
+../Middlewares/wolfcrypt/src/sp_c64.c \
+../Middlewares/wolfcrypt/src/sp_cortexm.c \
+../Middlewares/wolfcrypt/src/sp_dsp32.c \
+../Middlewares/wolfcrypt/src/sp_int.c \
+../Middlewares/wolfcrypt/src/sp_sm2_arm32.c \
+../Middlewares/wolfcrypt/src/sp_sm2_arm64.c \
+../Middlewares/wolfcrypt/src/sp_sm2_armthumb.c \
+../Middlewares/wolfcrypt/src/sp_sm2_c32.c \
+../Middlewares/wolfcrypt/src/sp_sm2_c64.c \
+../Middlewares/wolfcrypt/src/sp_sm2_cortexm.c \
+../Middlewares/wolfcrypt/src/sp_sm2_x86_64.c \
+../Middlewares/wolfcrypt/src/sp_x86_64.c \
+../Middlewares/wolfcrypt/src/srp.c \
+../Middlewares/wolfcrypt/src/tfm.c \
+../Middlewares/wolfcrypt/src/wc_dsp.c \
+../Middlewares/wolfcrypt/src/wc_encrypt.c \
+../Middlewares/wolfcrypt/src/wc_lms.c \
+../Middlewares/wolfcrypt/src/wc_lms_impl.c \
+../Middlewares/wolfcrypt/src/wc_mldsa.c \
+../Middlewares/wolfcrypt/src/wc_mlkem.c \
+../Middlewares/wolfcrypt/src/wc_mlkem_poly.c \
+../Middlewares/wolfcrypt/src/wc_pkcs11.c \
+../Middlewares/wolfcrypt/src/wc_port.c \
+../Middlewares/wolfcrypt/src/wc_she.c \
+../Middlewares/wolfcrypt/src/wc_slhdsa.c \
+../Middlewares/wolfcrypt/src/wc_xmss.c \
+../Middlewares/wolfcrypt/src/wc_xmss_impl.c \
+../Middlewares/wolfcrypt/src/wolfcrypt_first.c \
+../Middlewares/wolfcrypt/src/wolfcrypt_last.c \
+../Middlewares/wolfcrypt/src/wolfentropy.c \
+../Middlewares/wolfcrypt/src/wolfevent.c \
+../Middlewares/wolfcrypt/src/wolfmath.c 
+
+S_UPPER_SRCS += \
+../Middlewares/wolfcrypt/src/chacha_asm.S \
+../Middlewares/wolfcrypt/src/wc_mldsa_asm.S \
+../Middlewares/wolfcrypt/src/wc_mlkem_asm.S 
+
+OBJS += \
+./Middlewares/wolfcrypt/src/aes.o \
+./Middlewares/wolfcrypt/src/arc4.o \
+./Middlewares/wolfcrypt/src/ascon.o \
+./Middlewares/wolfcrypt/src/asm.o \
+./Middlewares/wolfcrypt/src/asn.o \
+./Middlewares/wolfcrypt/src/asn_orig.o \
+./Middlewares/wolfcrypt/src/async.o \
+./Middlewares/wolfcrypt/src/blake2b.o \
+./Middlewares/wolfcrypt/src/blake2s.o \
+./Middlewares/wolfcrypt/src/camellia.o \
+./Middlewares/wolfcrypt/src/chacha.o \
+./Middlewares/wolfcrypt/src/chacha20_poly1305.o \
+./Middlewares/wolfcrypt/src/chacha_asm.o \
+./Middlewares/wolfcrypt/src/cmac.o \
+./Middlewares/wolfcrypt/src/coding.o \
+./Middlewares/wolfcrypt/src/compress.o \
+./Middlewares/wolfcrypt/src/cpuid.o \
+./Middlewares/wolfcrypt/src/cryptocb.o \
+./Middlewares/wolfcrypt/src/curve25519.o \
+./Middlewares/wolfcrypt/src/curve448.o \
+./Middlewares/wolfcrypt/src/des3.o \
+./Middlewares/wolfcrypt/src/dh.o \
+./Middlewares/wolfcrypt/src/dsa.o \
+./Middlewares/wolfcrypt/src/ecc.o \
+./Middlewares/wolfcrypt/src/ecc_fp.o \
+./Middlewares/wolfcrypt/src/eccsi.o \
+./Middlewares/wolfcrypt/src/ed25519.o \
+./Middlewares/wolfcrypt/src/ed448.o \
+./Middlewares/wolfcrypt/src/error.o \
+./Middlewares/wolfcrypt/src/evp.o \
+./Middlewares/wolfcrypt/src/evp_pk.o \
+./Middlewares/wolfcrypt/src/falcon.o \
+./Middlewares/wolfcrypt/src/fe_448.o \
+./Middlewares/wolfcrypt/src/fe_low_mem.o \
+./Middlewares/wolfcrypt/src/fe_operations.o \
+./Middlewares/wolfcrypt/src/fips.o \
+./Middlewares/wolfcrypt/src/fips_test.o \
+./Middlewares/wolfcrypt/src/ge_448.o \
+./Middlewares/wolfcrypt/src/ge_low_mem.o \
+./Middlewares/wolfcrypt/src/ge_operations.o \
+./Middlewares/wolfcrypt/src/hash.o \
+./Middlewares/wolfcrypt/src/hmac.o \
+./Middlewares/wolfcrypt/src/hpke.o \
+./Middlewares/wolfcrypt/src/integer.o \
+./Middlewares/wolfcrypt/src/kdf.o \
+./Middlewares/wolfcrypt/src/logging.o \
+./Middlewares/wolfcrypt/src/md2.o \
+./Middlewares/wolfcrypt/src/md4.o \
+./Middlewares/wolfcrypt/src/md5.o \
+./Middlewares/wolfcrypt/src/memory.o \
+./Middlewares/wolfcrypt/src/misc.o \
+./Middlewares/wolfcrypt/src/pkcs12.o \
+./Middlewares/wolfcrypt/src/pkcs7.o \
+./Middlewares/wolfcrypt/src/poly1305.o \
+./Middlewares/wolfcrypt/src/puf.o \
+./Middlewares/wolfcrypt/src/pwdbased.o \
+./Middlewares/wolfcrypt/src/random.o \
+./Middlewares/wolfcrypt/src/rc2.o \
+./Middlewares/wolfcrypt/src/ripemd.o \
+./Middlewares/wolfcrypt/src/rng_bank.o \
+./Middlewares/wolfcrypt/src/rsa.o \
+./Middlewares/wolfcrypt/src/sakke.o \
+./Middlewares/wolfcrypt/src/selftest.o \
+./Middlewares/wolfcrypt/src/sha.o \
+./Middlewares/wolfcrypt/src/sha256.o \
+./Middlewares/wolfcrypt/src/sha3.o \
+./Middlewares/wolfcrypt/src/sha512.o \
+./Middlewares/wolfcrypt/src/signature.o \
+./Middlewares/wolfcrypt/src/siphash.o \
+./Middlewares/wolfcrypt/src/sm2.o \
+./Middlewares/wolfcrypt/src/sm3.o \
+./Middlewares/wolfcrypt/src/sm4.o \
+./Middlewares/wolfcrypt/src/sp_arm32.o \
+./Middlewares/wolfcrypt/src/sp_arm64.o \
+./Middlewares/wolfcrypt/src/sp_armthumb.o \
+./Middlewares/wolfcrypt/src/sp_c32.o \
+./Middlewares/wolfcrypt/src/sp_c64.o \
+./Middlewares/wolfcrypt/src/sp_cortexm.o \
+./Middlewares/wolfcrypt/src/sp_dsp32.o \
+./Middlewares/wolfcrypt/src/sp_int.o \
+./Middlewares/wolfcrypt/src/sp_sm2_arm32.o \
+./Middlewares/wolfcrypt/src/sp_sm2_arm64.o \
+./Middlewares/wolfcrypt/src/sp_sm2_armthumb.o \
+./Middlewares/wolfcrypt/src/sp_sm2_c32.o \
+./Middlewares/wolfcrypt/src/sp_sm2_c64.o \
+./Middlewares/wolfcrypt/src/sp_sm2_cortexm.o \
+./Middlewares/wolfcrypt/src/sp_sm2_x86_64.o \
+./Middlewares/wolfcrypt/src/sp_x86_64.o \
+./Middlewares/wolfcrypt/src/srp.o \
+./Middlewares/wolfcrypt/src/tfm.o \
+./Middlewares/wolfcrypt/src/wc_dsp.o \
+./Middlewares/wolfcrypt/src/wc_encrypt.o \
+./Middlewares/wolfcrypt/src/wc_lms.o \
+./Middlewares/wolfcrypt/src/wc_lms_impl.o \
+./Middlewares/wolfcrypt/src/wc_mldsa.o \
+./Middlewares/wolfcrypt/src/wc_mldsa_asm.o \
+./Middlewares/wolfcrypt/src/wc_mlkem.o \
+./Middlewares/wolfcrypt/src/wc_mlkem_asm.o \
+./Middlewares/wolfcrypt/src/wc_mlkem_poly.o \
+./Middlewares/wolfcrypt/src/wc_pkcs11.o \
+./Middlewares/wolfcrypt/src/wc_port.o \
+./Middlewares/wolfcrypt/src/wc_she.o \
+./Middlewares/wolfcrypt/src/wc_slhdsa.o \
+./Middlewares/wolfcrypt/src/wc_xmss.o \
+./Middlewares/wolfcrypt/src/wc_xmss_impl.o \
+./Middlewares/wolfcrypt/src/wolfcrypt_first.o \
+./Middlewares/wolfcrypt/src/wolfcrypt_last.o \
+./Middlewares/wolfcrypt/src/wolfentropy.o \
+./Middlewares/wolfcrypt/src/wolfevent.o \
+./Middlewares/wolfcrypt/src/wolfmath.o 
+
+S_UPPER_DEPS += \
+./Middlewares/wolfcrypt/src/chacha_asm.d \
+./Middlewares/wolfcrypt/src/wc_mldsa_asm.d \
+./Middlewares/wolfcrypt/src/wc_mlkem_asm.d 
+
+C_DEPS += \
+./Middlewares/wolfcrypt/src/aes.d \
+./Middlewares/wolfcrypt/src/arc4.d \
+./Middlewares/wolfcrypt/src/ascon.d \
+./Middlewares/wolfcrypt/src/asm.d \
+./Middlewares/wolfcrypt/src/asn.d \
+./Middlewares/wolfcrypt/src/asn_orig.d \
+./Middlewares/wolfcrypt/src/async.d \
+./Middlewares/wolfcrypt/src/blake2b.d \
+./Middlewares/wolfcrypt/src/blake2s.d \
+./Middlewares/wolfcrypt/src/camellia.d \
+./Middlewares/wolfcrypt/src/chacha.d \
+./Middlewares/wolfcrypt/src/chacha20_poly1305.d \
+./Middlewares/wolfcrypt/src/cmac.d \
+./Middlewares/wolfcrypt/src/coding.d \
+./Middlewares/wolfcrypt/src/compress.d \
+./Middlewares/wolfcrypt/src/cpuid.d \
+./Middlewares/wolfcrypt/src/cryptocb.d \
+./Middlewares/wolfcrypt/src/curve25519.d \
+./Middlewares/wolfcrypt/src/curve448.d \
+./Middlewares/wolfcrypt/src/des3.d \
+./Middlewares/wolfcrypt/src/dh.d \
+./Middlewares/wolfcrypt/src/dsa.d \
+./Middlewares/wolfcrypt/src/ecc.d \
+./Middlewares/wolfcrypt/src/ecc_fp.d \
+./Middlewares/wolfcrypt/src/eccsi.d \
+./Middlewares/wolfcrypt/src/ed25519.d \
+./Middlewares/wolfcrypt/src/ed448.d \
+./Middlewares/wolfcrypt/src/error.d \
+./Middlewares/wolfcrypt/src/evp.d \
+./Middlewares/wolfcrypt/src/evp_pk.d \
+./Middlewares/wolfcrypt/src/falcon.d \
+./Middlewares/wolfcrypt/src/fe_448.d \
+./Middlewares/wolfcrypt/src/fe_low_mem.d \
+./Middlewares/wolfcrypt/src/fe_operations.d \
+./Middlewares/wolfcrypt/src/fips.d \
+./Middlewares/wolfcrypt/src/fips_test.d \
+./Middlewares/wolfcrypt/src/ge_448.d \
+./Middlewares/wolfcrypt/src/ge_low_mem.d \
+./Middlewares/wolfcrypt/src/ge_operations.d \
+./Middlewares/wolfcrypt/src/hash.d \
+./Middlewares/wolfcrypt/src/hmac.d \
+./Middlewares/wolfcrypt/src/hpke.d \
+./Middlewares/wolfcrypt/src/integer.d \
+./Middlewares/wolfcrypt/src/kdf.d \
+./Middlewares/wolfcrypt/src/logging.d \
+./Middlewares/wolfcrypt/src/md2.d \
+./Middlewares/wolfcrypt/src/md4.d \
+./Middlewares/wolfcrypt/src/md5.d \
+./Middlewares/wolfcrypt/src/memory.d \
+./Middlewares/wolfcrypt/src/misc.d \
+./Middlewares/wolfcrypt/src/pkcs12.d \
+./Middlewares/wolfcrypt/src/pkcs7.d \
+./Middlewares/wolfcrypt/src/poly1305.d \
+./Middlewares/wolfcrypt/src/puf.d \
+./Middlewares/wolfcrypt/src/pwdbased.d \
+./Middlewares/wolfcrypt/src/random.d \
+./Middlewares/wolfcrypt/src/rc2.d \
+./Middlewares/wolfcrypt/src/ripemd.d \
+./Middlewares/wolfcrypt/src/rng_bank.d \
+./Middlewares/wolfcrypt/src/rsa.d \
+./Middlewares/wolfcrypt/src/sakke.d \
+./Middlewares/wolfcrypt/src/selftest.d \
+./Middlewares/wolfcrypt/src/sha.d \
+./Middlewares/wolfcrypt/src/sha256.d \
+./Middlewares/wolfcrypt/src/sha3.d \
+./Middlewares/wolfcrypt/src/sha512.d \
+./Middlewares/wolfcrypt/src/signature.d \
+./Middlewares/wolfcrypt/src/siphash.d \
+./Middlewares/wolfcrypt/src/sm2.d \
+./Middlewares/wolfcrypt/src/sm3.d \
+./Middlewares/wolfcrypt/src/sm4.d \
+./Middlewares/wolfcrypt/src/sp_arm32.d \
+./Middlewares/wolfcrypt/src/sp_arm64.d \
+./Middlewares/wolfcrypt/src/sp_armthumb.d \
+./Middlewares/wolfcrypt/src/sp_c32.d \
+./Middlewares/wolfcrypt/src/sp_c64.d \
+./Middlewares/wolfcrypt/src/sp_cortexm.d \
+./Middlewares/wolfcrypt/src/sp_dsp32.d \
+./Middlewares/wolfcrypt/src/sp_int.d \
+./Middlewares/wolfcrypt/src/sp_sm2_arm32.d \
+./Middlewares/wolfcrypt/src/sp_sm2_arm64.d \
+./Middlewares/wolfcrypt/src/sp_sm2_armthumb.d \
+./Middlewares/wolfcrypt/src/sp_sm2_c32.d \
+./Middlewares/wolfcrypt/src/sp_sm2_c64.d \
+./Middlewares/wolfcrypt/src/sp_sm2_cortexm.d \
+./Middlewares/wolfcrypt/src/sp_sm2_x86_64.d \
+./Middlewares/wolfcrypt/src/sp_x86_64.d \
+./Middlewares/wolfcrypt/src/srp.d \
+./Middlewares/wolfcrypt/src/tfm.d \
+./Middlewares/wolfcrypt/src/wc_dsp.d \
+./Middlewares/wolfcrypt/src/wc_encrypt.d \
+./Middlewares/wolfcrypt/src/wc_lms.d \
+./Middlewares/wolfcrypt/src/wc_lms_impl.d \
+./Middlewares/wolfcrypt/src/wc_mldsa.d \
+./Middlewares/wolfcrypt/src/wc_mlkem.d \
+./Middlewares/wolfcrypt/src/wc_mlkem_poly.d \
+./Middlewares/wolfcrypt/src/wc_pkcs11.d \
+./Middlewares/wolfcrypt/src/wc_port.d \
+./Middlewares/wolfcrypt/src/wc_she.d \
+./Middlewares/wolfcrypt/src/wc_slhdsa.d \
+./Middlewares/wolfcrypt/src/wc_xmss.d \
+./Middlewares/wolfcrypt/src/wc_xmss_impl.d \
+./Middlewares/wolfcrypt/src/wolfcrypt_first.d \
+./Middlewares/wolfcrypt/src/wolfcrypt_last.d \
+./Middlewares/wolfcrypt/src/wolfentropy.d \
+./Middlewares/wolfcrypt/src/wolfevent.d \
+./Middlewares/wolfcrypt/src/wolfmath.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Middlewares/wolfcrypt/src/%.o Middlewares/wolfcrypt/src/%.su Middlewares/wolfcrypt/src/%.cyclo: ../Middlewares/wolfcrypt/src/%.c Middlewares/wolfcrypt/src/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DWOLFSSL_USER_SETTINGS -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I"C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares" -I"C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl" -I"C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt" -I"C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/src" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfSSL" -I"C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfSSL/wolfssl" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+Middlewares/wolfcrypt/src/%.o: ../Middlewares/wolfcrypt/src/%.S Middlewares/wolfcrypt/src/subdir.mk
+	arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -I"C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/src" -I"C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt" -I"C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl" -I"C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
+
+clean: clean-Middlewares-2f-wolfcrypt-2f-src
+
+clean-Middlewares-2f-wolfcrypt-2f-src:
+	-$(RM) ./Middlewares/wolfcrypt/src/aes.cyclo ./Middlewares/wolfcrypt/src/aes.d ./Middlewares/wolfcrypt/src/aes.o ./Middlewares/wolfcrypt/src/aes.su ./Middlewares/wolfcrypt/src/arc4.cyclo ./Middlewares/wolfcrypt/src/arc4.d ./Middlewares/wolfcrypt/src/arc4.o ./Middlewares/wolfcrypt/src/arc4.su ./Middlewares/wolfcrypt/src/ascon.cyclo ./Middlewares/wolfcrypt/src/ascon.d ./Middlewares/wolfcrypt/src/ascon.o ./Middlewares/wolfcrypt/src/ascon.su ./Middlewares/wolfcrypt/src/asm.cyclo ./Middlewares/wolfcrypt/src/asm.d ./Middlewares/wolfcrypt/src/asm.o ./Middlewares/wolfcrypt/src/asm.su ./Middlewares/wolfcrypt/src/asn.cyclo ./Middlewares/wolfcrypt/src/asn.d ./Middlewares/wolfcrypt/src/asn.o ./Middlewares/wolfcrypt/src/asn.su ./Middlewares/wolfcrypt/src/asn_orig.cyclo ./Middlewares/wolfcrypt/src/asn_orig.d ./Middlewares/wolfcrypt/src/asn_orig.o ./Middlewares/wolfcrypt/src/asn_orig.su ./Middlewares/wolfcrypt/src/async.cyclo ./Middlewares/wolfcrypt/src/async.d ./Middlewares/wolfcrypt/src/async.o ./Middlewares/wolfcrypt/src/async.su ./Middlewares/wolfcrypt/src/blake2b.cyclo ./Middlewares/wolfcrypt/src/blake2b.d ./Middlewares/wolfcrypt/src/blake2b.o ./Middlewares/wolfcrypt/src/blake2b.su ./Middlewares/wolfcrypt/src/blake2s.cyclo ./Middlewares/wolfcrypt/src/blake2s.d ./Middlewares/wolfcrypt/src/blake2s.o ./Middlewares/wolfcrypt/src/blake2s.su ./Middlewares/wolfcrypt/src/camellia.cyclo ./Middlewares/wolfcrypt/src/camellia.d ./Middlewares/wolfcrypt/src/camellia.o ./Middlewares/wolfcrypt/src/camellia.su ./Middlewares/wolfcrypt/src/chacha.cyclo ./Middlewares/wolfcrypt/src/chacha.d ./Middlewares/wolfcrypt/src/chacha.o ./Middlewares/wolfcrypt/src/chacha.su ./Middlewares/wolfcrypt/src/chacha20_poly1305.cyclo ./Middlewares/wolfcrypt/src/chacha20_poly1305.d ./Middlewares/wolfcrypt/src/chacha20_poly1305.o ./Middlewares/wolfcrypt/src/chacha20_poly1305.su ./Middlewares/wolfcrypt/src/chacha_asm.d ./Middlewares/wolfcrypt/src/chacha_asm.o ./Middlewares/wolfcrypt/src/cmac.cyclo ./Middlewares/wolfcrypt/src/cmac.d ./Middlewares/wolfcrypt/src/cmac.o ./Middlewares/wolfcrypt/src/cmac.su ./Middlewares/wolfcrypt/src/coding.cyclo ./Middlewares/wolfcrypt/src/coding.d ./Middlewares/wolfcrypt/src/coding.o ./Middlewares/wolfcrypt/src/coding.su ./Middlewares/wolfcrypt/src/compress.cyclo ./Middlewares/wolfcrypt/src/compress.d ./Middlewares/wolfcrypt/src/compress.o ./Middlewares/wolfcrypt/src/compress.su ./Middlewares/wolfcrypt/src/cpuid.cyclo ./Middlewares/wolfcrypt/src/cpuid.d ./Middlewares/wolfcrypt/src/cpuid.o ./Middlewares/wolfcrypt/src/cpuid.su ./Middlewares/wolfcrypt/src/cryptocb.cyclo ./Middlewares/wolfcrypt/src/cryptocb.d ./Middlewares/wolfcrypt/src/cryptocb.o ./Middlewares/wolfcrypt/src/cryptocb.su ./Middlewares/wolfcrypt/src/curve25519.cyclo ./Middlewares/wolfcrypt/src/curve25519.d ./Middlewares/wolfcrypt/src/curve25519.o ./Middlewares/wolfcrypt/src/curve25519.su ./Middlewares/wolfcrypt/src/curve448.cyclo ./Middlewares/wolfcrypt/src/curve448.d ./Middlewares/wolfcrypt/src/curve448.o ./Middlewares/wolfcrypt/src/curve448.su ./Middlewares/wolfcrypt/src/des3.cyclo ./Middlewares/wolfcrypt/src/des3.d ./Middlewares/wolfcrypt/src/des3.o ./Middlewares/wolfcrypt/src/des3.su ./Middlewares/wolfcrypt/src/dh.cyclo ./Middlewares/wolfcrypt/src/dh.d ./Middlewares/wolfcrypt/src/dh.o ./Middlewares/wolfcrypt/src/dh.su ./Middlewares/wolfcrypt/src/dsa.cyclo ./Middlewares/wolfcrypt/src/dsa.d ./Middlewares/wolfcrypt/src/dsa.o ./Middlewares/wolfcrypt/src/dsa.su ./Middlewares/wolfcrypt/src/ecc.cyclo ./Middlewares/wolfcrypt/src/ecc.d ./Middlewares/wolfcrypt/src/ecc.o ./Middlewares/wolfcrypt/src/ecc.su ./Middlewares/wolfcrypt/src/ecc_fp.cyclo ./Middlewares/wolfcrypt/src/ecc_fp.d ./Middlewares/wolfcrypt/src/ecc_fp.o ./Middlewares/wolfcrypt/src/ecc_fp.su ./Middlewares/wolfcrypt/src/eccsi.cyclo ./Middlewares/wolfcrypt/src/eccsi.d ./Middlewares/wolfcrypt/src/eccsi.o ./Middlewares/wolfcrypt/src/eccsi.su ./Middlewares/wolfcrypt/src/ed25519.cyclo ./Middlewares/wolfcrypt/src/ed25519.d ./Middlewares/wolfcrypt/src/ed25519.o ./Middlewares/wolfcrypt/src/ed25519.su ./Middlewares/wolfcrypt/src/ed448.cyclo ./Middlewares/wolfcrypt/src/ed448.d ./Middlewares/wolfcrypt/src/ed448.o ./Middlewares/wolfcrypt/src/ed448.su ./Middlewares/wolfcrypt/src/error.cyclo ./Middlewares/wolfcrypt/src/error.d ./Middlewares/wolfcrypt/src/error.o ./Middlewares/wolfcrypt/src/error.su ./Middlewares/wolfcrypt/src/evp.cyclo ./Middlewares/wolfcrypt/src/evp.d ./Middlewares/wolfcrypt/src/evp.o ./Middlewares/wolfcrypt/src/evp.su ./Middlewares/wolfcrypt/src/evp_pk.cyclo ./Middlewares/wolfcrypt/src/evp_pk.d ./Middlewares/wolfcrypt/src/evp_pk.o ./Middlewares/wolfcrypt/src/evp_pk.su ./Middlewares/wolfcrypt/src/falcon.cyclo ./Middlewares/wolfcrypt/src/falcon.d ./Middlewares/wolfcrypt/src/falcon.o ./Middlewares/wolfcrypt/src/falcon.su ./Middlewares/wolfcrypt/src/fe_448.cyclo ./Middlewares/wolfcrypt/src/fe_448.d ./Middlewares/wolfcrypt/src/fe_448.o ./Middlewares/wolfcrypt/src/fe_448.su ./Middlewares/wolfcrypt/src/fe_low_mem.cyclo ./Middlewares/wolfcrypt/src/fe_low_mem.d ./Middlewares/wolfcrypt/src/fe_low_mem.o ./Middlewares/wolfcrypt/src/fe_low_mem.su ./Middlewares/wolfcrypt/src/fe_operations.cyclo ./Middlewares/wolfcrypt/src/fe_operations.d ./Middlewares/wolfcrypt/src/fe_operations.o ./Middlewares/wolfcrypt/src/fe_operations.su ./Middlewares/wolfcrypt/src/fips.cyclo ./Middlewares/wolfcrypt/src/fips.d ./Middlewares/wolfcrypt/src/fips.o ./Middlewares/wolfcrypt/src/fips.su ./Middlewares/wolfcrypt/src/fips_test.cyclo ./Middlewares/wolfcrypt/src/fips_test.d ./Middlewares/wolfcrypt/src/fips_test.o ./Middlewares/wolfcrypt/src/fips_test.su ./Middlewares/wolfcrypt/src/ge_448.cyclo ./Middlewares/wolfcrypt/src/ge_448.d ./Middlewares/wolfcrypt/src/ge_448.o ./Middlewares/wolfcrypt/src/ge_448.su ./Middlewares/wolfcrypt/src/ge_low_mem.cyclo ./Middlewares/wolfcrypt/src/ge_low_mem.d ./Middlewares/wolfcrypt/src/ge_low_mem.o ./Middlewares/wolfcrypt/src/ge_low_mem.su ./Middlewares/wolfcrypt/src/ge_operations.cyclo
+	-$(RM) ./Middlewares/wolfcrypt/src/ge_operations.d ./Middlewares/wolfcrypt/src/ge_operations.o ./Middlewares/wolfcrypt/src/ge_operations.su ./Middlewares/wolfcrypt/src/hash.cyclo ./Middlewares/wolfcrypt/src/hash.d ./Middlewares/wolfcrypt/src/hash.o ./Middlewares/wolfcrypt/src/hash.su ./Middlewares/wolfcrypt/src/hmac.cyclo ./Middlewares/wolfcrypt/src/hmac.d ./Middlewares/wolfcrypt/src/hmac.o ./Middlewares/wolfcrypt/src/hmac.su ./Middlewares/wolfcrypt/src/hpke.cyclo ./Middlewares/wolfcrypt/src/hpke.d ./Middlewares/wolfcrypt/src/hpke.o ./Middlewares/wolfcrypt/src/hpke.su ./Middlewares/wolfcrypt/src/integer.cyclo ./Middlewares/wolfcrypt/src/integer.d ./Middlewares/wolfcrypt/src/integer.o ./Middlewares/wolfcrypt/src/integer.su ./Middlewares/wolfcrypt/src/kdf.cyclo ./Middlewares/wolfcrypt/src/kdf.d ./Middlewares/wolfcrypt/src/kdf.o ./Middlewares/wolfcrypt/src/kdf.su ./Middlewares/wolfcrypt/src/logging.cyclo ./Middlewares/wolfcrypt/src/logging.d ./Middlewares/wolfcrypt/src/logging.o ./Middlewares/wolfcrypt/src/logging.su ./Middlewares/wolfcrypt/src/md2.cyclo ./Middlewares/wolfcrypt/src/md2.d ./Middlewares/wolfcrypt/src/md2.o ./Middlewares/wolfcrypt/src/md2.su ./Middlewares/wolfcrypt/src/md4.cyclo ./Middlewares/wolfcrypt/src/md4.d ./Middlewares/wolfcrypt/src/md4.o ./Middlewares/wolfcrypt/src/md4.su ./Middlewares/wolfcrypt/src/md5.cyclo ./Middlewares/wolfcrypt/src/md5.d ./Middlewares/wolfcrypt/src/md5.o ./Middlewares/wolfcrypt/src/md5.su ./Middlewares/wolfcrypt/src/memory.cyclo ./Middlewares/wolfcrypt/src/memory.d ./Middlewares/wolfcrypt/src/memory.o ./Middlewares/wolfcrypt/src/memory.su ./Middlewares/wolfcrypt/src/misc.cyclo ./Middlewares/wolfcrypt/src/misc.d ./Middlewares/wolfcrypt/src/misc.o ./Middlewares/wolfcrypt/src/misc.su ./Middlewares/wolfcrypt/src/pkcs12.cyclo ./Middlewares/wolfcrypt/src/pkcs12.d ./Middlewares/wolfcrypt/src/pkcs12.o ./Middlewares/wolfcrypt/src/pkcs12.su ./Middlewares/wolfcrypt/src/pkcs7.cyclo ./Middlewares/wolfcrypt/src/pkcs7.d ./Middlewares/wolfcrypt/src/pkcs7.o ./Middlewares/wolfcrypt/src/pkcs7.su ./Middlewares/wolfcrypt/src/poly1305.cyclo ./Middlewares/wolfcrypt/src/poly1305.d ./Middlewares/wolfcrypt/src/poly1305.o ./Middlewares/wolfcrypt/src/poly1305.su ./Middlewares/wolfcrypt/src/puf.cyclo ./Middlewares/wolfcrypt/src/puf.d ./Middlewares/wolfcrypt/src/puf.o ./Middlewares/wolfcrypt/src/puf.su ./Middlewares/wolfcrypt/src/pwdbased.cyclo ./Middlewares/wolfcrypt/src/pwdbased.d ./Middlewares/wolfcrypt/src/pwdbased.o ./Middlewares/wolfcrypt/src/pwdbased.su ./Middlewares/wolfcrypt/src/random.cyclo ./Middlewares/wolfcrypt/src/random.d ./Middlewares/wolfcrypt/src/random.o ./Middlewares/wolfcrypt/src/random.su ./Middlewares/wolfcrypt/src/rc2.cyclo ./Middlewares/wolfcrypt/src/rc2.d ./Middlewares/wolfcrypt/src/rc2.o ./Middlewares/wolfcrypt/src/rc2.su ./Middlewares/wolfcrypt/src/ripemd.cyclo ./Middlewares/wolfcrypt/src/ripemd.d ./Middlewares/wolfcrypt/src/ripemd.o ./Middlewares/wolfcrypt/src/ripemd.su ./Middlewares/wolfcrypt/src/rng_bank.cyclo ./Middlewares/wolfcrypt/src/rng_bank.d ./Middlewares/wolfcrypt/src/rng_bank.o ./Middlewares/wolfcrypt/src/rng_bank.su ./Middlewares/wolfcrypt/src/rsa.cyclo ./Middlewares/wolfcrypt/src/rsa.d ./Middlewares/wolfcrypt/src/rsa.o ./Middlewares/wolfcrypt/src/rsa.su ./Middlewares/wolfcrypt/src/sakke.cyclo ./Middlewares/wolfcrypt/src/sakke.d ./Middlewares/wolfcrypt/src/sakke.o ./Middlewares/wolfcrypt/src/sakke.su ./Middlewares/wolfcrypt/src/selftest.cyclo ./Middlewares/wolfcrypt/src/selftest.d ./Middlewares/wolfcrypt/src/selftest.o ./Middlewares/wolfcrypt/src/selftest.su ./Middlewares/wolfcrypt/src/sha.cyclo ./Middlewares/wolfcrypt/src/sha.d ./Middlewares/wolfcrypt/src/sha.o ./Middlewares/wolfcrypt/src/sha.su ./Middlewares/wolfcrypt/src/sha256.cyclo ./Middlewares/wolfcrypt/src/sha256.d ./Middlewares/wolfcrypt/src/sha256.o ./Middlewares/wolfcrypt/src/sha256.su ./Middlewares/wolfcrypt/src/sha3.cyclo ./Middlewares/wolfcrypt/src/sha3.d ./Middlewares/wolfcrypt/src/sha3.o ./Middlewares/wolfcrypt/src/sha3.su ./Middlewares/wolfcrypt/src/sha512.cyclo ./Middlewares/wolfcrypt/src/sha512.d ./Middlewares/wolfcrypt/src/sha512.o ./Middlewares/wolfcrypt/src/sha512.su ./Middlewares/wolfcrypt/src/signature.cyclo ./Middlewares/wolfcrypt/src/signature.d ./Middlewares/wolfcrypt/src/signature.o ./Middlewares/wolfcrypt/src/signature.su ./Middlewares/wolfcrypt/src/siphash.cyclo ./Middlewares/wolfcrypt/src/siphash.d ./Middlewares/wolfcrypt/src/siphash.o ./Middlewares/wolfcrypt/src/siphash.su ./Middlewares/wolfcrypt/src/sm2.cyclo ./Middlewares/wolfcrypt/src/sm2.d ./Middlewares/wolfcrypt/src/sm2.o ./Middlewares/wolfcrypt/src/sm2.su ./Middlewares/wolfcrypt/src/sm3.cyclo ./Middlewares/wolfcrypt/src/sm3.d ./Middlewares/wolfcrypt/src/sm3.o ./Middlewares/wolfcrypt/src/sm3.su ./Middlewares/wolfcrypt/src/sm4.cyclo ./Middlewares/wolfcrypt/src/sm4.d ./Middlewares/wolfcrypt/src/sm4.o ./Middlewares/wolfcrypt/src/sm4.su ./Middlewares/wolfcrypt/src/sp_arm32.cyclo ./Middlewares/wolfcrypt/src/sp_arm32.d ./Middlewares/wolfcrypt/src/sp_arm32.o ./Middlewares/wolfcrypt/src/sp_arm32.su ./Middlewares/wolfcrypt/src/sp_arm64.cyclo ./Middlewares/wolfcrypt/src/sp_arm64.d ./Middlewares/wolfcrypt/src/sp_arm64.o ./Middlewares/wolfcrypt/src/sp_arm64.su ./Middlewares/wolfcrypt/src/sp_armthumb.cyclo ./Middlewares/wolfcrypt/src/sp_armthumb.d ./Middlewares/wolfcrypt/src/sp_armthumb.o ./Middlewares/wolfcrypt/src/sp_armthumb.su ./Middlewares/wolfcrypt/src/sp_c32.cyclo ./Middlewares/wolfcrypt/src/sp_c32.d ./Middlewares/wolfcrypt/src/sp_c32.o ./Middlewares/wolfcrypt/src/sp_c32.su ./Middlewares/wolfcrypt/src/sp_c64.cyclo ./Middlewares/wolfcrypt/src/sp_c64.d ./Middlewares/wolfcrypt/src/sp_c64.o ./Middlewares/wolfcrypt/src/sp_c64.su ./Middlewares/wolfcrypt/src/sp_cortexm.cyclo ./Middlewares/wolfcrypt/src/sp_cortexm.d ./Middlewares/wolfcrypt/src/sp_cortexm.o ./Middlewares/wolfcrypt/src/sp_cortexm.su ./Middlewares/wolfcrypt/src/sp_dsp32.cyclo ./Middlewares/wolfcrypt/src/sp_dsp32.d
+	-$(RM) ./Middlewares/wolfcrypt/src/sp_dsp32.o ./Middlewares/wolfcrypt/src/sp_dsp32.su ./Middlewares/wolfcrypt/src/sp_int.cyclo ./Middlewares/wolfcrypt/src/sp_int.d ./Middlewares/wolfcrypt/src/sp_int.o ./Middlewares/wolfcrypt/src/sp_int.su ./Middlewares/wolfcrypt/src/sp_sm2_arm32.cyclo ./Middlewares/wolfcrypt/src/sp_sm2_arm32.d ./Middlewares/wolfcrypt/src/sp_sm2_arm32.o ./Middlewares/wolfcrypt/src/sp_sm2_arm32.su ./Middlewares/wolfcrypt/src/sp_sm2_arm64.cyclo ./Middlewares/wolfcrypt/src/sp_sm2_arm64.d ./Middlewares/wolfcrypt/src/sp_sm2_arm64.o ./Middlewares/wolfcrypt/src/sp_sm2_arm64.su ./Middlewares/wolfcrypt/src/sp_sm2_armthumb.cyclo ./Middlewares/wolfcrypt/src/sp_sm2_armthumb.d ./Middlewares/wolfcrypt/src/sp_sm2_armthumb.o ./Middlewares/wolfcrypt/src/sp_sm2_armthumb.su ./Middlewares/wolfcrypt/src/sp_sm2_c32.cyclo ./Middlewares/wolfcrypt/src/sp_sm2_c32.d ./Middlewares/wolfcrypt/src/sp_sm2_c32.o ./Middlewares/wolfcrypt/src/sp_sm2_c32.su ./Middlewares/wolfcrypt/src/sp_sm2_c64.cyclo ./Middlewares/wolfcrypt/src/sp_sm2_c64.d ./Middlewares/wolfcrypt/src/sp_sm2_c64.o ./Middlewares/wolfcrypt/src/sp_sm2_c64.su ./Middlewares/wolfcrypt/src/sp_sm2_cortexm.cyclo ./Middlewares/wolfcrypt/src/sp_sm2_cortexm.d ./Middlewares/wolfcrypt/src/sp_sm2_cortexm.o ./Middlewares/wolfcrypt/src/sp_sm2_cortexm.su ./Middlewares/wolfcrypt/src/sp_sm2_x86_64.cyclo ./Middlewares/wolfcrypt/src/sp_sm2_x86_64.d ./Middlewares/wolfcrypt/src/sp_sm2_x86_64.o ./Middlewares/wolfcrypt/src/sp_sm2_x86_64.su ./Middlewares/wolfcrypt/src/sp_x86_64.cyclo ./Middlewares/wolfcrypt/src/sp_x86_64.d ./Middlewares/wolfcrypt/src/sp_x86_64.o ./Middlewares/wolfcrypt/src/sp_x86_64.su ./Middlewares/wolfcrypt/src/srp.cyclo ./Middlewares/wolfcrypt/src/srp.d ./Middlewares/wolfcrypt/src/srp.o ./Middlewares/wolfcrypt/src/srp.su ./Middlewares/wolfcrypt/src/tfm.cyclo ./Middlewares/wolfcrypt/src/tfm.d ./Middlewares/wolfcrypt/src/tfm.o ./Middlewares/wolfcrypt/src/tfm.su ./Middlewares/wolfcrypt/src/wc_dsp.cyclo ./Middlewares/wolfcrypt/src/wc_dsp.d ./Middlewares/wolfcrypt/src/wc_dsp.o ./Middlewares/wolfcrypt/src/wc_dsp.su ./Middlewares/wolfcrypt/src/wc_encrypt.cyclo ./Middlewares/wolfcrypt/src/wc_encrypt.d ./Middlewares/wolfcrypt/src/wc_encrypt.o ./Middlewares/wolfcrypt/src/wc_encrypt.su ./Middlewares/wolfcrypt/src/wc_lms.cyclo ./Middlewares/wolfcrypt/src/wc_lms.d ./Middlewares/wolfcrypt/src/wc_lms.o ./Middlewares/wolfcrypt/src/wc_lms.su ./Middlewares/wolfcrypt/src/wc_lms_impl.cyclo ./Middlewares/wolfcrypt/src/wc_lms_impl.d ./Middlewares/wolfcrypt/src/wc_lms_impl.o ./Middlewares/wolfcrypt/src/wc_lms_impl.su ./Middlewares/wolfcrypt/src/wc_mldsa.cyclo ./Middlewares/wolfcrypt/src/wc_mldsa.d ./Middlewares/wolfcrypt/src/wc_mldsa.o ./Middlewares/wolfcrypt/src/wc_mldsa.su ./Middlewares/wolfcrypt/src/wc_mldsa_asm.d ./Middlewares/wolfcrypt/src/wc_mldsa_asm.o ./Middlewares/wolfcrypt/src/wc_mlkem.cyclo ./Middlewares/wolfcrypt/src/wc_mlkem.d ./Middlewares/wolfcrypt/src/wc_mlkem.o ./Middlewares/wolfcrypt/src/wc_mlkem.su ./Middlewares/wolfcrypt/src/wc_mlkem_asm.d ./Middlewares/wolfcrypt/src/wc_mlkem_asm.o ./Middlewares/wolfcrypt/src/wc_mlkem_poly.cyclo ./Middlewares/wolfcrypt/src/wc_mlkem_poly.d ./Middlewares/wolfcrypt/src/wc_mlkem_poly.o ./Middlewares/wolfcrypt/src/wc_mlkem_poly.su ./Middlewares/wolfcrypt/src/wc_pkcs11.cyclo ./Middlewares/wolfcrypt/src/wc_pkcs11.d ./Middlewares/wolfcrypt/src/wc_pkcs11.o ./Middlewares/wolfcrypt/src/wc_pkcs11.su ./Middlewares/wolfcrypt/src/wc_port.cyclo ./Middlewares/wolfcrypt/src/wc_port.d ./Middlewares/wolfcrypt/src/wc_port.o ./Middlewares/wolfcrypt/src/wc_port.su ./Middlewares/wolfcrypt/src/wc_she.cyclo ./Middlewares/wolfcrypt/src/wc_she.d ./Middlewares/wolfcrypt/src/wc_she.o ./Middlewares/wolfcrypt/src/wc_she.su ./Middlewares/wolfcrypt/src/wc_slhdsa.cyclo ./Middlewares/wolfcrypt/src/wc_slhdsa.d ./Middlewares/wolfcrypt/src/wc_slhdsa.o ./Middlewares/wolfcrypt/src/wc_slhdsa.su ./Middlewares/wolfcrypt/src/wc_xmss.cyclo ./Middlewares/wolfcrypt/src/wc_xmss.d ./Middlewares/wolfcrypt/src/wc_xmss.o ./Middlewares/wolfcrypt/src/wc_xmss.su ./Middlewares/wolfcrypt/src/wc_xmss_impl.cyclo ./Middlewares/wolfcrypt/src/wc_xmss_impl.d ./Middlewares/wolfcrypt/src/wc_xmss_impl.o ./Middlewares/wolfcrypt/src/wc_xmss_impl.su ./Middlewares/wolfcrypt/src/wolfcrypt_first.cyclo ./Middlewares/wolfcrypt/src/wolfcrypt_first.d ./Middlewares/wolfcrypt/src/wolfcrypt_first.o ./Middlewares/wolfcrypt/src/wolfcrypt_first.su ./Middlewares/wolfcrypt/src/wolfcrypt_last.cyclo ./Middlewares/wolfcrypt/src/wolfcrypt_last.d ./Middlewares/wolfcrypt/src/wolfcrypt_last.o ./Middlewares/wolfcrypt/src/wolfcrypt_last.su ./Middlewares/wolfcrypt/src/wolfentropy.cyclo ./Middlewares/wolfcrypt/src/wolfentropy.d ./Middlewares/wolfcrypt/src/wolfentropy.o ./Middlewares/wolfcrypt/src/wolfentropy.su ./Middlewares/wolfcrypt/src/wolfevent.cyclo ./Middlewares/wolfcrypt/src/wolfevent.d ./Middlewares/wolfcrypt/src/wolfevent.o ./Middlewares/wolfcrypt/src/wolfevent.su ./Middlewares/wolfcrypt/src/wolfmath.cyclo ./Middlewares/wolfcrypt/src/wolfmath.d ./Middlewares/wolfcrypt/src/wolfmath.o ./Middlewares/wolfcrypt/src/wolfmath.su
+
+.PHONY: clean-Middlewares-2f-wolfcrypt-2f-src
+

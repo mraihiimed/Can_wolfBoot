@@ -1,0 +1,8 @@
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:501:31:XorWords	2
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:513:31:xorbuf	7
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:591:31:ForceZero	5
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:668:33:ctMaskWord32GTE	1
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:773:37:min	1
+../Middlewares/wolfcrypt/src/kdf.c:73:5:wc_PRF	24
+../Middlewares/wolfcrypt/src/kdf.c:223:5:wc_PRF_TLSv1	11
+../Middlewares/wolfcrypt/src/kdf.c:281:5:wc_PRF_TLS	7

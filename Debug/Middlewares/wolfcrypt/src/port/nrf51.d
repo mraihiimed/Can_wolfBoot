@@ -1,0 +1,16 @@
+Middlewares/wolfcrypt/src/port/nrf51.o: \
+ ../Middlewares/wolfcrypt/src/port/nrf51.c \
+ C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/settings.h \
+ ../Core/Inc/user_settings.h \
+ C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/visibility.h \
+ C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/types.h \
+ C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/wc_port.h \
+ C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/oid_sum.h \
+ C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/memory.h
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/settings.h:
+../Core/Inc/user_settings.h:
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/visibility.h:
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/types.h:
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/wc_port.h:
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/oid_sum.h:
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfssl/wolfcrypt/memory.h:

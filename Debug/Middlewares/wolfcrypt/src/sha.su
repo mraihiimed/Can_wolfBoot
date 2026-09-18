@@ -1,0 +1,16 @@
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:109:37:rotlFixed	16	static
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:139:33:ByteReverseWord32	16	static
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:181:31:ByteReverseWords	40	static
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:668:33:ctMaskWord32GTE	32	static
+C:/Users/mraihi.imr/Downloads/can-main/can-main/Middlewares/wolfcrypt/src/misc.c:773:37:min	24	static
+../Middlewares/wolfcrypt/src/sha.c:424:16:InitSha	24	static
+../Middlewares/wolfcrypt/src/sha.c:449:23:AddLength	24	static
+../Middlewares/wolfcrypt/src/sha.c:489:16:Transform	112	static
+../Middlewares/wolfcrypt/src/sha.c:575:5:wc_InitSha_ex	32	static
+../Middlewares/wolfcrypt/src/sha.c:621:5:wc_ShaUpdate	40	static
+../Middlewares/wolfcrypt/src/sha.c:807:5:wc_ShaFinalRaw	40	static
+../Middlewares/wolfcrypt/src/sha.c:845:5:wc_ShaFinal	24	static
+../Middlewares/wolfcrypt/src/sha.c:1061:5:wc_InitSha	16	static
+../Middlewares/wolfcrypt/src/sha.c:1071:6:wc_ShaFree	16	static
+../Middlewares/wolfcrypt/src/sha.c:1157:5:wc_ShaGetHash	32	static
+../Middlewares/wolfcrypt/src/sha.c:1179:5:wc_ShaCopy	24	static

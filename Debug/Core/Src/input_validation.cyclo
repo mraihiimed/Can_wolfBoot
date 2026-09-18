@@ -1,0 +1,2 @@
+../Core/Src/input_validation.c:11:6:InputValidation_IsValidCanDlc	1
+../Core/Src/input_validation.c:16:6:InputValidation_HasDiagnosticSid	3

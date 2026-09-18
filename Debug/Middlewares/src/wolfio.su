@@ -1,0 +1,12 @@
+../Middlewares/src/wolfio.c:2382:6:wolfSSL_CTX_SetIORecv	16	static
+../Middlewares/src/wolfio.c:2393:6:wolfSSL_CTX_SetIOSend	16	static
+../Middlewares/src/wolfio.c:2405:6:wolfSSL_SSLSetIORecv	16	static
+../Middlewares/src/wolfio.c:2417:6:wolfSSL_SSLSetIOSend	16	static
+../Middlewares/src/wolfio.c:2427:6:wolfSSL_SSLDisableRead	16	static
+../Middlewares/src/wolfio.c:2434:6:wolfSSL_SSLEnableRead	16	static
+../Middlewares/src/wolfio.c:2442:6:wolfSSL_SetIOReadCtx	16	static
+../Middlewares/src/wolfio.c:2449:6:wolfSSL_SetIOWriteCtx	16	static
+../Middlewares/src/wolfio.c:2456:7:wolfSSL_GetIOReadCtx	16	static
+../Middlewares/src/wolfio.c:2465:7:wolfSSL_GetIOWriteCtx	16	static
+../Middlewares/src/wolfio.c:2474:6:wolfSSL_SetIOReadFlags	16	static
+../Middlewares/src/wolfio.c:2481:6:wolfSSL_SetIOWriteFlags	16	static
